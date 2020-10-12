@@ -11,5 +11,4 @@ def load_sensor_data():
             data_reader = csv.DictReader(data_file,delimiter=',')
             for row in data_file:
                 sensor_data.append(row)
-    sensor_file()
     
